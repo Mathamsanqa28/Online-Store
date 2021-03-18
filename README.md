@@ -5,25 +5,23 @@ to enhance the readability of Javascript. The application allows one to choose i
 total amount due. Options to delete, increase and decrease number of items in cart are available. 
 
 ## Table of Contents
-======================
 
-[Table of contents](#table-of-contents)
-[Installation](#installation)
-[Usage](#usage)
-* [Live demo[(#live-demo)
-[Credits](#credits)
+* [Table of contents](#table-of-contents)
+* [Installation](#installation)
+* [Usage](#usage)
+    * [Live demo[(#live-demo)
+* [Credits](#credits)
 
 
 ### Installation
-===================
-* [Click link to install](https://github.com/Mathamsanqa28/Online-Store.git)
+
+* [Click link to install ](https://github.com/Mathamsanqa28/Online-Store.git)
 
 ### Usage
-====================
-###Live demo
+  Live demo
 
 
 ### Credits
-_Nomathamsanqa Nyathi
+* _Nomathamsanqa Nyathi
 
 
