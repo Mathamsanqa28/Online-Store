@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shopping cart</title>
+  <!--CSS only-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <!--Linking Pages-->
+    <nav id="navlinks" class="navbar sticky-top navbar-light bg-dark">
+      <a class="navbar-brand" href="home.html"> Home </a>
+      <a class="navbar-brand" href="shop.html"> Shop </a>
+      <a class="navbar-brand" href="about.html"> About </a>
+      <a href="delivery.html" class="button checkout">Checkout</a>
+      <button class="clear-cart btn btn-danger">Clear Cart</button>
+    </nav>
+    <br>
+  </header>
+
+  <!---insideCart Container-->
+
+ 
+  <div class="container">
+    <div class="insidecart">
+       <h3>Your Cart</h3>
+      <table class="show-cart table">
+
+      </table>
+      <div>Total Price: R <span class="total-cart"></span></div>
+      <p>---------------------------------------------------------------------------</p>
+      <!--Discount-->
+      <p>Get your discount payment.</p>
+      Total Price :R <input type="text" id="amount" value="" required>
+      <br><br> Discount % : <select name="Discount" id="Discount">
+        <option value=""></option>
+        <option value="15">15</option>
+        <option value="25">25</option>
+        <option value="35">35</option>
+        <option value="45">45</option>
+      </select><br><br>
+      Disc Amnt : R<input type="text" id="result"><br><br>
+      Incl.VAT@10%:R<input type="text" id="vat"><br><br>
+      <p>-------------------------------------------------------------------------</p>
+      Due Amnt : R<input type="text" id="pay">
+    </div>
+  </div>
+  </div>
+  <button class="submit btn btn-yes">Submit</button>
+  <!--Scripting-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Queens Online Jewellery Store</title>
+  <!--CSS ONLY-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <!--Linking pages-->
+    <nav id="navlinks" class="navbar sticky-top navbar-light bg-dark">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2 success" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+      </form>
+      <a class="navbar-brand" href="home.html"> Home </a>
+      <a class="navbar-brand" href="shop.html"> Shop </a>     
+      <a class="navbar-brand" href="about.html"> About </a>
+      <a href="/cart.html" class="submit">Cart
+        <i class="fa fa-shopping-bag"></i> (<span class="total-count"></span>)</a>
+    </nav>
+  </header>
+  <h2>Add items to your shopping cart</h2>
+  <!--Catalogue-->
+  <div class="container">
+    <div class="image">
+      <img src="images/leather-watch.jpg" alt="watch">
+      <h6 class="card-title">Watch</h6>
+      <h6 class="card-text">R4 000</h6>
+      <a href="#" data-name="Watch" data-price="4000" class="add-cart">Add to Cart</a>
+    </div>
+    <div class="image">
+      <img src="images/diamondset.jpg" alt="2-piece-diamond-set">
+      <h6>Diamond-set</h6>
+      <h6>R16 500</h6>
+      <a href="#" data-name="Diamond-set" data-price="16500" class="add-cart">Add to Cart</a>
+    </div>
+    <div class="image">
+      <img src="images/diamond-bracelet.jpg" alt="bracelet">
+      <h6>Bracelet</h6>
+      <h6>R20 500</h6>
+      <a href="#" data-name="Bracelet" data-price="20500" class="add-cart">Add to Cart</a>
+    </div>
+    <div class="image">
+      <img src="images/princesscutclassicring.jpg" alt="ring">
+      <h6>Princess-Cut Ring</h6>
+      <h6>R18 500</h6>
+      <a href="#" data-name="Princess-Cut Ring" data-price="18500" class="add-cart">Add to Cart</a>
+    </div>
+    <div class="image">
+      <img src="images/v-shaped necklace.jpg" alt="necklace">
+      <h6>Diamond Necklace</h6>
+      <h6>R12 800</h6>
+      <a href="#" data-name="Diamond Necklace" data-price="12800" class="add-cart">Add to Cart</a>
+    </div>
+    <div class="image">
+      <img src="images/blackdiamonds.jpg" alt="studs">
+      <h6>Customisable Studs</h6>
+      <h6>R8 500</h6>
+      <a href="#" data-name="Customisable Studs" data-price="8500" class="add-cart">Add to Cart</a>
+    </div>
+  </div>
+
+  
+  <!--Script files-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

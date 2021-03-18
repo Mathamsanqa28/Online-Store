@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Queens Online Jewellery Store</title>
+  <!--CSS only-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Linking Pages-->
+  <nav id="navlinks" class="navbar sticky-top navbar-light bg-dark">
+    <form class="form-inline">
+      <input class="form-control mr-sm-2 success" type="search" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+    <a class="navbar-brand active" href="home.html"> Home </a>
+    <a class="navbar-brand" href="shop.html"> Shop </a>
+    <a class="navbar-brand" href="about.html"> About </a>
+    <a href="/shop.html" class="button" type="submit">Cart
+      <i class="fa fa-shopping-bag"></i> (<span class="total-count"></span>)</a>
+  </nav>
+
+  <div class="container">
+    <div class="gallery">
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th colspan="3" id="headingCatalogue">
+            <h2>Jewellery Gallery</h2>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row"><h4>Customer Favourites</h4></th>
+        </tr>
+        <tr>
+          <td class="one">
+            <!-- Bootstrap's thumbnails are used to show linked images in grids with very minimum required markup. -->
+            <!-- Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen. -->
+            <img src="./images/princesscutclassicring.jpg" alt="thumbnail example"
+              class="img-responsive img-thumbnail" />
+          </td>
+
+          <td class="two">
+            <!-- Bootstrap's thumbnails are used to show linked images in grids with very minimum required markup. -->
+            <!-- Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen. -->
+            <img src="images/v-shaped necklace.jpg" alt="Two classes at once example"
+              class="img-responsive img-thumbnail" />
+          </td>
+
+          <td class="three">
+            <!-- Bootstrap's thumbnails are used to show linked images in grids with very minimum required markup. -->
+            <!-- Images come in all sizes. So do screens. Responsive images automatically adjust to fit the size of the screen. -->
+            <img src="images/hoops.jpg" alt="Two classes at once example" class="img-responsive img-thumbnail" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    </div>
+  </div>
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <!--js Popper-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="main.js"></script>
+  </body>
+
+</html>
