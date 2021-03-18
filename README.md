@@ -17,7 +17,8 @@ total amount due. Options to delete, increase and decrease number of items in ca
 * [Click link to install ](https://github.com/Mathamsanqa28/Online-Store.git)
 
 ### Usage
-  [View Illustration](https://user-images.githubusercontent.com/80464642/111697573-65ab3100-883e-11eb-9cf3-3a8f5710e2b4.png)
+  [Demo1](https://user-images.githubusercontent.com/80464642/111697595-6fcd2f80-883e-11eb-9d95-c02fcf83fd57.png)
+  [Demo2](https://user-images.githubusercontent.com/80464642/111697573-65ab3100-883e-11eb-9cf3-3a8f5710e2b4.png)
 
 
 ### Credits
