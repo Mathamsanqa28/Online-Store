@@ -9,7 +9,6 @@ total amount due. Options to delete, increase and decrease number of items in ca
 * [Table of contents](#table-of-contents)
 * [Installation](#installation)
 * [Usage](#usage)
-    * [Live demo[(#live-demo)
 * [Credits](#credits)
 
 
@@ -22,6 +21,6 @@ total amount due. Options to delete, increase and decrease number of items in ca
 
 
 ### Credits
-* _Nomathamsanqa Nyathi
+* _Nomathamsanqa Nyathi_
 
 
